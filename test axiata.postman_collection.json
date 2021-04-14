@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "7e3d54eb-c8f8-4abd-884a-7ce24001c20a",
+		"name": "test axiata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/products",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "woro",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "adhabdhasbdhadbaskd",
+							"type": "text"
+						},
+						{
+							"key": "Image",
+							"value": "https://klikhijau.com/wp-content/uploads/2020/04/kamboja.jpg",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "Status",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/products",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "72e7f2a58d17f235194c7e348a71e07d1b7cd470b0c60940bbb953a0376f593e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "woro",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "adhabdhasbdhadbaskd",
+							"type": "text"
+						},
+						{
+							"key": "Image",
+							"value": "https://klikhijau.com/wp-content/uploads/2020/04/kamboja.jpg",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "Status",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/products",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "72e7f2a58d17f235194c7e348a71e07d1b7cd470b0c60940bbb953a0376f593e",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Name",
+							"value": "woro",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "adhabdhasbdhadbaskd",
+							"type": "text"
+						},
+						{
+							"key": "Image",
+							"value": "https://klikhijau.com/wp-content/uploads/2020/04/kamboja.jpg",
+							"type": "text"
+						},
+						{
+							"key": "Price",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "Status",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/products",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
